@@ -7,11 +7,11 @@ I built this game seeing a youtube video to learn how to bbuild a game using jav
 
 In future i intend to add more future.
 
-🕹️ Features
-🎯 Click the mole (Monty) to earn points.
-☠️ Avoid clicking the piranha plant or the game ends.
-⏱️ Dynamic difficulty: The more you score, the faster the mole and plants appear.
-🎨 Smooth and scaled graphics using `ImageIcon`.
+-🕹️ Features
+-🎯 Click the mole (Monty) to earn points.
+-☠️ Avoid clicking the piranha plant or the game ends.
+-⏱️ Dynamic difficulty: The more you score, the faster the mole and plants appear.
+-🎨 Smooth and scaled graphics using `ImageIcon`.
 
 ![Gameplay Screenshot](src/Screenshot-WhacAMole.png)
 
