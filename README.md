@@ -1,19 +1,31 @@
-## Getting Started
+🎯 Whac-A-Mole: Mario Edition 🎯
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A fun, interactive **Whac-A-Mole** desktop game built in **Java** using **Swing**!
+Tap the mole (Monty) for points—but beware of the piranha plants! One wrong move and it's game over.
 
-## Folder Structure
+I built this game seeing a youtube video to learn how to bbuild a game using java and swing. I modified this game like you can click only one time before the mole(monty) move but there you can click multiple time also i added a function when your score reached 100 your game speed will increase 10ms  when 200 it will increase more 10ms. 
 
-The workspace contains two folders by default, where:
+In future i intend to add more future.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+🕹️ Features
+- 🎯 Click the mole (Monty) to earn points.
+- 💀 Avoid clicking the piranha plant or the game ends.
+- ⏱️ Dynamic difficulty: The more you score, the faster the mole and plants appear.
+- 🎨 Smooth and scaled graphics using `ImageIcon`.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+![Gameplay Screenshot](src/new-screenshot.png)
 
-## Dependency Management
+🚀 Getting Started
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# test
+Prerequisites
+
+- Java JDK 8 or higher
+- Any Java IDE (e.g., IntelliJ, Eclipse, NetBeans) or command-line compiler
+
+Assets
+
+Make sure to place the following image files inside your project’s `src` folder
+
+/monty.png // mole image
+/piranha.png // plant image
