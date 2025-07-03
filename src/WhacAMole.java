@@ -84,6 +84,7 @@ public class WhacAMole {
 
                     else if ( tile == currPlantTile) {
                         textLabel.setText("Game Over : "+ Integer.toString(score));
+                        
                         setMoleTimer.stop();
                         setPlantTimer.stop();
 
@@ -103,12 +104,9 @@ public class WhacAMole {
                     currMoleTile = null;
                 }
 
-                // randomly select tile
                 int num = random.nextInt(9); // 0 - 8
                 JButton tile = board[num];
 
-
-                // if tile is occupied by plant , skip tile for this turn
                 if (currPlantTile == tile) return;
 
                 currMoleTile = tile;
@@ -133,10 +131,8 @@ public class WhacAMole {
                     }
                 }
 
-                // If no available tile, skip
                 if (availableTiles.isEmpty()) return;
 
-                // Pick random tile from available
                 JButton tile = availableTiles.get(random.nextInt(availableTiles.size()));
                 currPlantTile = tile;
                 currPlantTile.setIcon(plantIcon);
@@ -150,9 +146,7 @@ public class WhacAMole {
 
          frame.setVisible(true);
 
-
     }
-
 
         void adjustSpeed() {
             int moleBaseDelay = 1000; 
