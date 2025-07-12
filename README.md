@@ -27,5 +27,5 @@ Assets
 
 Make sure to place the following image files inside your project’s `src` folder
 
-/monty.png // mole image
-/piranha.png // plant image
+- /monty.png // mole image
+- /piranha.png // plant image
